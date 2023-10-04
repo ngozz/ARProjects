@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 8d434de454e3b4f13b7181aa5d62082c
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Fly
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl1
+    second: {fileID: 2100000, guid: ff60b62a1dc923b4781458b56135d397, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: ff60b62a1dc923b4781458b56135d397, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fly
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 20
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Anim2E(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Merli_Hair
+      parentName: Anim2E(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pasted__Merli_Body_Main
+      parentName: Anim2E(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: End
+      parentName: Anim2E(Clone)
+      position: {x: 0.02872974, y: 0.26643252, z: 0.06550239}
+      rotation: {x: -0.49601308, y: -0.6782179, z: 0.3559785, w: 0.40898764}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Duoi1
+      parentName: End
+      position: {x: -0.10158416, y: -0.00063610316, z: 3.7637904e-19}
+      rotation: {x: -0, y: -0, z: -0.0075058937, w: 0.99997187}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Duoi2
+      parentName: Duoi1
+      position: {x: -0.089630544, y: -0.003080416, z: 1.0132632e-18}
+      rotation: {x: 0.00000002957779, y: 0.000000030025177, z: -0.0052373237, w: 0.99998635}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Duoi3
+      parentName: Duoi2
+      position: {x: -0.090914436, y: -0.003389974, z: 1.4701584e-18}
+      rotation: {x: -0.000000030237228, y: -0.000000029360976, z: 0.027441464, w: 0.9996235}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Duoi4
+      parentName: Duoi3
+      position: {x: -0.07423302, y: -1.398881e-16, z: -9.691715e-19}
+      rotation: {x: -0, y: -0, z: 8.877944e-16, w: -1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: Duoi5
+      parentName: Duoi4
+      position: {x: -0.04241887, y: -7.771561e-17, z: -5.538123e-19}
+      rotation: {x: -0.99980307, y: -0.019846745, z: 0.000000030237228, w: -0.000000029360978}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Duoi6
+      parentName: Duoi5
+      position: {x: -0.05708067, y: -3.9968027e-17, z: 1.7502009e-18}
+      rotation: {x: -0.9996049, y: -0.028108045, z: 0.000000029993565, w: 0.000000029609842}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Duoi_End
+      parentName: Duoi6
+      position: {x: -0.042065233, y: 6.661338e-18, z: 4.895945e-20}
+      rotation: {x: 0.49585104, y: 0.50411475, z: -0.4958511, w: 0.5041148}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: T_Duoi1
+      parentName: Duoi4
+      position: {x: -0.05794897, y: -0.015201893, z: -0.05166894}
+      rotation: {x: -0.53678566, y: -0.4602837, z: -0.4602837, w: 0.5367857}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: T_Duoi2
+      parentName: T_Duoi1
+      position: {x: -0.055352934, y: 1.7763568e-17, z: -6.778779e-18}
+      rotation: {x: -0.000000029802319, y: -0.000000029802319, z: -0.21719703, w: 0.9761278}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: T_DuoiEnd
+      parentName: T_Duoi2
+      position: {x: -0.047053684, y: 3.5527136e-17, z: -5.2187354e-18}
+      rotation: {x: 0.14188485, y: -0.98988324, z: -0.000000040381, w: -0.000000026186825}
+      scale: {x: 0.9999998, y: 1, z: 0.9999997}
+    - name: P_Duoi1
+      parentName: Duoi4
+      position: {x: -0.05794898, y: -0.015201893, z: 0.0516689}
+      rotation: {x: -0.6981116, y: 0.6855736, z: 0.19943024, w: -0.053447522}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: P_Duoi2
+      parentName: P_Duoi1
+      position: {x: 0.055353012, y: -0.000000011275848, z: 6.1512e-17}
+      rotation: {x: -0.00000008940696, y: -0.000000029802319, z: -0.21719703, w: 0.97612786}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: P_DuoiEnd
+      parentName: P_Duoi2
+      position: {x: 0.047053505, y: -0.000000030430698, z: -6.5126094e-17}
+      rotation: {x: 0.14188477, y: -0.9898832, z: -0.000000086865, w: 0.00000003655479}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Nguc
+      parentName: End
+      position: {x: 0.09762397, y: -0.0011216605, z: -4.981173e-19}
+      rotation: {x: 0.000000014901161, y: 0.000000029802322, z: -0.9998435, w: 0.017694682}
+      scale: {x: 1.0000011, y: 1.0000011, z: 1.0000007}
+    - name: Dau
+      parentName: Nguc
+      position: {x: -0.108678795, y: 1.2212453e-17, z: -3.9443044e-33}
+      rotation: {x: -0.9993906, y: 0.034906972, z: -0.000000044183487, w: 0.000000029527124}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: TamDua
+      parentName: Dau
+      position: {x: -0.2856145, y: 3.907985e-16, z: 4.1908234e-32}
+      rotation: {x: 1.4827428e-10, y: -0.000000029801956, z: -0.022191904, w: 0.9997538}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000008}
+    - name: DauEnd
+      parentName: TamDua
+      position: {x: -0.16727686, y: 5.356826e-17, z: 9.089973e-19}
+      rotation: {x: 0.20984375, y: -0.6063967, z: 0.7041333, w: 0.30404776}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: P_Tai1
+      parentName: DauEnd
+      position: {x: -0.259277, y: -0.0043541538, z: -0.022339303}
+      rotation: {x: 0.10633105, y: -0.04287687, z: 0.96736014, w: 0.2259863}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: P_Tai2
+      parentName: P_Tai1
+      position: {x: 0.09171599, y: -0.0000027212095, z: -2.735167e-17}
+      rotation: {x: -0.0025300335, y: -0.07708771, z: 0.09546048, w: 0.99244064}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1}
+    - name: P_TaiEnd
+      parentName: P_Tai2
+      position: {x: 0.110845074, y: 0.000004955355, z: -2.9833735e-17}
+      rotation: {x: 0.40421408, y: -0.9146644, z: 0.00000007671425, w: 0.00000007006557}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000004}
+    - name: T_Tai1
+      parentName: DauEnd
+      position: {x: 0.25927693, y: -0.0043555344, z: -0.022339303}
+      rotation: {x: -0.37395176, y: 0.92744815, z: 0.000000014901159, w: -0.000000014901159}
+      scale: {x: 1.0000005, y: 1, z: 1.0000006}
+    - name: T_Tai2
+      parentName: T_Tai1
+      position: {x: -0.091713764, y: -1.4210854e-16, z: 1.5777218e-32}
+      rotation: {x: 0.0011790856, y: 0.0358781, z: -0.12738465, w: 0.99120355}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000006}
+    - name: T_TaiEnd
+      parentName: T_Tai2
+      position: {x: -0.11085057, y: 2.842171e-16, z: 8.91341e-19}
+      rotation: {x: 0.40421405, y: -0.9146645, z: -0.00000004470348, w: 0.000000029802319}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.9999998}
+    - name: T_Toc1
+      parentName: DauEnd
+      position: {x: 0.20715354, y: -0.026075847, z: -0.35842684}
+      rotation: {x: 0.23478675, y: 0.60918766, z: 0.75225013, w: 0.08879978}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+    - name: T_Toc2
+      parentName: T_Toc1
+      position: {x: -0.2794421, y: 0, z: 0}
+      rotation: {x: 0.018170998, y: 0.10249076, z: 0.06893504, w: 0.9921762}
+      scale: {x: 1.0000006, y: 1, z: 1}
+    - name: T_Toc3
+      parentName: T_Toc2
+      position: {x: -0.18588102, y: 1.7319479e-16, z: -1.4210854e-16}
+      rotation: {x: 0.00092341704, y: 0.008336563, z: -0.010358221, w: 0.9999112}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: T_TocEnd
+      parentName: T_Toc3
+      position: {x: -0.11543618, y: 8.8817837e-17, z: 1.4210854e-16}
+      rotation: {x: -0.28503782, y: -0.6471115, z: -0.28503793, w: 0.6471116}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: Toc1
+      parentName: DauEnd
+      position: {x: -1.1874927e-16, y: -0.09569163, z: -0.3766798}
+      rotation: {x: 0.45590472, y: 0.5405098, z: 0.45590466, w: 0.5405098}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
+    - name: Toc2
+      parentName: Toc1
+      position: {x: -0.2794421, y: -3.5527136e-17, z: -6.204861e-17}
+      rotation: {x: 0.000000029802322, y: -0.000000059604645, z: -0.17457217, w: 0.9846444}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000008}
+    - name: Toc3
+      parentName: Toc2
+      position: {x: -0.18588102, y: -1.7763568e-17, z: -3.8758203e-17}
+      rotation: {x: -0.000000034991434, y: -0.000000009903858, z: -0.11009016, w: 0.99392164}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: TocEnd
+      parentName: Toc3
+      position: {x: -0.11543618, y: -3.5527136e-17, z: -2.1557847e-17}
+      rotation: {x: -0.28503808, y: -0.6471115, z: -0.28503796, w: 0.6471116}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: P_Toc1
+      parentName: DauEnd
+      position: {x: -0.207154, y: -0.026074154, z: -0.35842732}
+      rotation: {x: -0.4303819, y: 0.6147964, z: -0.59931433, w: 0.2786021}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: P_Toc2
+      parentName: P_Toc1
+      position: {x: 0.27944338, y: -0.00000034250428, z: 0.0000013576928}
+      rotation: {x: -0.0000000074505797, y: 0.00000006705522, z: 0.17457205, w: -0.9846445}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.000001}
+    - name: P_Toc3
+      parentName: P_Toc2
+      position: {x: 0.18588077, y: 0.000000048999766, z: 0.00000021035667}
+      rotation: {x: 0.00000004340777, y: 0.00000009725025, z: -0.110090286, w: 0.99392164}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999998}
+    - name: P_TocEnd
+      parentName: P_Toc3
+      position: {x: 0.11543667, y: -0.00000018551333, z: -0.0000005194097}
+      rotation: {x: -0.28503805, y: -0.6471115, z: -0.2850379, w: 0.6471116}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000008}
+    - name: joint48
+      parentName: TamDua
+      position: {x: 0.027816989, y: -0.23658429, z: 0.17347747}
+      rotation: {x: 0.34235403, y: -0.4460377, z: 0.5035044, w: 0.65599346}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999994}
+    - name: joint49
+      parentName: TamDua
+      position: {x: 0.027817268, y: -0.23658434, z: -0.173477}
+      rotation: {x: 0.44603774, y: 0.34235412, z: 0.65599346, w: -0.5035044}
+      scale: {x: 0.9999996, y: 1.0000001, z: 1.0000005}
+    - name: Mieng
+      parentName: TamDua
+      position: {x: 0.14520186, y: -0.21810068, z: 7.2679933e-17}
+      rotation: {x: 0.4951132, y: -0.5048395, z: 0.49511322, w: 0.5048394}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: MoiDuoi
+      parentName: Mieng
+      position: {x: 3.078169e-17, y: -0.0557821, z: 0.027599504}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: MoiTre
+      parentName: Mieng
+      position: {x: 1.35447e-17, y: 0.013571539, z: 0.03196958}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: P_Mep
+      parentName: Mieng
+      position: {x: -0.06434975, y: -0.0013266846, z: 0.04999061}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: T_Mep
+      parentName: Mieng
+      position: {x: 0.0643498, y: -0.0013271491, z: 0.04999049}
+      rotation: {x: 1, y: -0.00000007450579, z: 0.000000014901158, w: -0.000000044703473}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: T_MepDuoi
+      parentName: Mieng
+      position: {x: 0.038800456, y: -0.03684129, z: 0.03672174}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: P_MepDUoi
+      parentName: Mieng
+      position: {x: -0.038800456, y: -0.03684129, z: 0.03672174}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: T_Vai
+      parentName: Nguc
+      position: {x: -0.034268737, y: -0.032979257, z: -0.071350895}
+      rotation: {x: -0.57425666, y: 0.453863, z: -0.40906465, w: -0.5448888}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000002}
+    - name: T_Tay1
+      parentName: T_Vai
+      position: {x: -0.07180935, y: 2.842171e-16, z: 1.7763568e-17}
+      rotation: {x: -0, y: 0.000000029802319, z: 0.0901534, w: 0.9959279}
+      scale: {x: 1.0000011, y: 0.9999998, z: 1.000001}
+    - name: T_Tay2
+      parentName: T_Tay1
+      position: {x: -0.047655366, y: 0, z: 1.7763568e-17}
+      rotation: {x: 0.0006075639, y: -0.02281371, z: 0.026613265, w: 0.9993853}
+      scale: {x: 1.0000001, y: 1, z: 1.0000005}
+    - name: T_Tay3
+      parentName: T_Tay2
+      position: {x: -0.051793497, y: -4.2632563e-16, z: -8.881784e-18}
+      rotation: {x: 0.00013418042, y: -0.022821352, z: 0.0058789267, w: 0.9997223}
+      scale: {x: 1.0000011, y: 1, z: 1.0000012}
+    - name: T_Tay4
+      parentName: T_Tay3
+      position: {x: -0.05178275, y: -2.842171e-16, z: 8.881784e-18}
+      rotation: {x: -0.000022055347, y: -0.022821875, z: -0.00096650195, w: 0.99973905}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000006}
+    - name: T_Tay5
+      parentName: T_Tay4
+      position: {x: -0.04447334, y: 4.2632563e-16, z: 1.7763568e-17}
+      rotation: {x: 0.0005866418, y: -0.022814184, z: 0.025698315, w: 0.9994092}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.000001}
+    - name: T_TayEnd
+      parentName: T_Tay5
+      position: {x: -0.032308813, y: 1.4210854e-16, z: 0}
+      rotation: {x: -0.018857878, y: -0.9998222, z: 0.000000039988652, w: -0.000000054016695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: P_Vai
+      parentName: Nguc
+      position: {x: -0.034268692, y: -0.032979287, z: 0.071350895}
+      rotation: {x: 0.7922239, y: 0.22088328, z: 0.07054996, w: -0.5644597}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999997}
+    - name: P_Tay1
+      parentName: P_Vai
+      position: {x: 0.07180965, y: 0.00000002544933, z: -0.000000025832113}
+      rotation: {x: 0.000000059604638, y: -0.000000059604638, z: 0.09015339, w: 0.99592793}
+      scale: {x: 1.0000017, y: 1.0000013, z: 1}
+    - name: P_Tay2
+      parentName: P_Tay1
+      position: {x: 0.04765551, y: 0.00000033596993, z: 0.000000006554201}
+      rotation: {x: 0.0006075099, y: -0.02281367, z: 0.026613254, w: 0.99938524}
+      scale: {x: 0.99999946, y: 0.9999997, z: 1}
+    - name: P_Tay3
+      parentName: P_Tay2
+      position: {x: 0.05179264, y: -0.00000052328613, z: 0.00000010683537}
+      rotation: {x: 0.00013418746, y: -0.022821322, z: 0.0058790045, w: 0.9997223}
+      scale: {x: 1.0000014, y: 1.0000008, z: 1.0000001}
+    - name: P_Tay4
+      parentName: P_Tay3
+      position: {x: 0.05178331, y: 0.000000015635253, z: -0.00000007944196}
+      rotation: {x: -0.52472436, y: -0.3447107, z: -0.543552, w: 0.5571267}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1}
+    - name: P_Tay5
+      parentName: P_Tay4
+      position: {x: 0.044472937, y: 0.00000038134786, z: 0.00000008879511}
+      rotation: {x: 0.0005866741, y: -0.02281417, z: 0.025698263, w: 0.99940926}
+      scale: {x: 1.0000006, y: 1.0000008, z: 0.99999994}
+    - name: P_TayEnd
+      parentName: P_Tay5
+      position: {x: 0.032309145, y: -0.00000042779112, z: -0.00000009819585}
+      rotation: {x: -0.018857824, y: -0.99982214, z: -0.0000000036670813, w: 0.000000026077023}
+      scale: {x: 1, y: 0.9999997, z: 1.0000005}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
