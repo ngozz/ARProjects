@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scene2_SpawnObject/AR_SpawnObject.unity
     guid: c5f1ec717a4081848a5bb3e64e27c42e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scene3_SpawnMeril/AR_MerilOnImage.unity
     guid: 1084a6c0ad9ae924fa1d125110d4fd55
+  - enabled: 1
+    path: Assets/Scene4_CMSLoadAll/AR_CMSLoadAll.unity
+    guid: 37e651e60b4b56743b5bf8c398096fc3
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

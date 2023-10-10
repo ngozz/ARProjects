@@ -44,6 +44,7 @@ public class PlaceARObject2 : MonoBehaviour
         {
             // Get the name of the reference image
             var imageName = trackedImage.referenceImage.name;
+            Debug.Log("Tracked image added: " + imageName);
             // Now loop over the array of prefabs
             foreach (var curPrefab in ArPrefabs)
             {

@@ -10,7 +10,7 @@ public class Import : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
-        string path = "https://popar-backend.acstech.vn/filename=deer?bucket=projects";
+        string path = "https://popar-backend.acstech.vn/filename=merli?bucket=projects";
         Debug.Log("Loading AssetBundle from: " + path);
         UnityWebRequest request = UnityWebRequestAssetBundle.GetAssetBundle(path);
         yield return request.SendWebRequest();
